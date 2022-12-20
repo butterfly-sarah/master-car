@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background: url(images/13841402_2010.i123.005..car\ headlights\ AD\ composition.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav{
+    position:fixed;
+    z-index: 5;
+    display: flex;
+    justify-content: end;
+    background-color:rgb(0,0,0,0.5);
+    width: 100%;
+    height: 50px;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin-right: 35px;
+    font-family:Arial, sans-serif
+}
+.navlink:hover{
+    font-size: 38px;
+}
+.master{
+    color: white;
+    font-size: 90px;
+    font-family: 'Rubik 80s Fade', cursive;
+}
+.masterdiv{
+    position: absolute;
+    top: 35vh;
+    right: 5vw;
+}
+.catogaries{
+    background: url(images/modern-futuristic-sci-fi-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cars{
+    background: url(images/empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration.jpg)bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.catagory{
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(0,0,0,0.5);
+}
+.catagorytype{
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+.catagorytype:hover{
+    cursor: pointer;
+}
