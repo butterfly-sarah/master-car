@@ -11,7 +11,6 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="car.css">
-    <script src="car.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -26,19 +25,23 @@
         <div class="masterdiv"><p class="master">MASTER CAR</p></div>
     </div>
     <div class="home catogaries" id="catogaries">
-        <div class="catagory"><a class="catagorytype">HYUNDAI</a>
+        <div class="catagory">
+            <a class="catagorytype" id="1" style="display: inline-block;" href="#cars">HYUNDAI</a>
+            <a class="catagorytype" id="2" href="#kia">KIA</a>
+            <a class="catagorytype" id="3" href="#bmw">BMW</a>
+            <a class="catagorytype" id="4" href="#mercedes">mercedes</a>
+            <a class="catagorytype" id="5" href="#suzuki">suzuki</a>
+            <a class="catagorytype" id="6" href="#skoda">skoda</a>
+            <a class="catagorytype" id="7" href="#fiat">fiat</a>
         </div>
-        <a class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" role="button" data-slide="next">
+        <a class="carousel-control-next" role="button" data-slide="next" onclick="slide();">
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
     
     <div class="home cars" id="cars">
         <div class="catagory">
-            <img src="images/2022 hyundai tucson sel white.png" alt="" style="width: 730px;">
+            <img src="images/2022 hyundai tucson sel white.png" alt="" style="width: 650px;">
         </div>
         <a class="carousel-control-prev" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
@@ -47,5 +50,73 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
+    <div class="home cars" id="kia">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/kia/kia_PNG60.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="home cars" id="bmw">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/bmw/bmw_PNG1683.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="home cars" id="mercedes">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/mercedes/mercedes_PNG1833.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="home cars" id="suzuki">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/suzuki/suzuki_PNG12310.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="home cars" id="skoda">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/skoda/skoda_PNG12368.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="home cars" id="fiat">
+        <div class="catagory">
+            <img src="https://pngimg.com/uploads/fiat/fiat_PNG11903.png" alt="" style="width: 650px;">
+        </div>
+        <a class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="car.js"></script>
 </body>
 </html>

@@ -65,6 +65,7 @@ body{
     font-size: 50px;
     color: white;
     text-decoration: none;
+    display: none;
 }
 .catagorytype:hover{
     cursor: pointer;
